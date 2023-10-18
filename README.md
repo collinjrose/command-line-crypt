@@ -8,9 +8,7 @@ Since authlib expects to use the linux system crypt() call, a quick an easy fix 
 I used https://stackoverflow.com/questions/19231612/how-to-write-a-argv-and-argc as the starting point for this code.
 
 Example Use in PHP:
-<code>
-<?php
+<br><code>
 $crypt_password = exec("/usr/bin/crypt $password");
-?>
 </code>
 
